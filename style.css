@@ -1,0 +1,162 @@
+:root{
+  --blanco: #ffffff;
+  --gris: rgb(187, 184, 184);
+  --rojo: red;
+  --negro: black;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  height: 30vh;
+  display: flex;
+  flex-direction:column;
+  color: white;
+}
+
+.title{
+  display: flex;
+  align-items: center; 
+  padding: 0 59px;
+  color: black; 
+  text-shadow: 1px 1px 5px red;
+  font-family:cursive;
+}
+
+
+
+.title img {
+  width: 100px; 
+  height: auto; 
+}
+
+h1{
+  padding-left: 331px;
+  padding-right: 329px;
+  font-size: 36px;
+  text-wrap: nowrap
+}
+
+h2{
+  text-align: center;
+}
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 30px;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top: 1.5px solid red;
+  border-bottom: 1.5px solid red;
+}
+
+.nav_container{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 50px;
+  box-shadow: 0px 0px 6px 1px white;
+  text-shadow: 2px 1px 1px red;
+  padding: 4px;
+}
+
+/* dando estilo a las cartas */
+.card_img{
+  height: 120px;
+  width: 120px;
+}
+
+.card_box{
+  height: 150px;
+  width: 120px;
+  text-align: center;
+  border: 1px solid #000000;
+  background-color: var(--gris);
+}
+
+.card_container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.main{
+  background-color: var(--blanco);
+  height: 60vh;
+}
+
+.plataformas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.lista{
+  border: 1px solid black;
+  padding-left: 20px;
+  background-color: var(--gris);
+  
+}
+
+.tabla{
+  border:1px solid;
+  background-color: var(--gris);
+}
+
+.footer_container{
+  background-color: var(--negro);
+  color: var(--blanco);
+  display: flex;
+  justify-content: space-around;
+  padding: 7px;
+}
+
+.main{
+  background-image: url(./assets/img/fondo.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+table {
+  width: 100%; /* Ajusta al ancho completo del contenedor */
+  border-collapse: collapse; /* Elimina el espacio entre las bordes */
+  background-color: white; /* Fondo blanco para la tabla */
+}
+
+table, th, td {
+  border: 1px solid black; /* Líneas negras para bordes */
+}
+
+th, td {
+
+  text-align: left; /* Alineación del texto */
+}
+
+thead {
+  background-color: #f2f2f2; /* Fondo gris claro para el encabezado para diferenciar */
+}
+
+
+tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Fondo de color más claro para las filas impares para mejorar la legibilidad */
+}
+
+tbody tr:hover {
+  background-color: #e8e8e8; /* Color al pasar el mouse sobre las filas para interacción visual */
+}
+
+.tabla{
+  padding: 10px;
+}
